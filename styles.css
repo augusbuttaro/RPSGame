@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #42253B;
+    margin: 0;
+    font-family: 'Titillium Web';
+}
+header{
+    background-color: #ABFAA9;
+    margin: 0;
+    display: flex;
+    padding: 1em;
+}
+
+header h1{
+    margin: auto;
+    color: #42253B;
+}
+
+.score, .teams span, .teams{
+    border: 2px solid #ABFAA9;
+    background-color: #4C2C69;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+    color: #ABFAA9;
+    border-bottom: none;
+}
+.teams span{
+    width: 50%;
+    text-align: center;
+    padding: 1em
+}
+.score{
+    width:100%;
+    text-align:center;
+    padding: 0.5em 0;
+    font-size: 4rem;
+    background-color: #4C2C69;
+    color: #ABFAA9;
+    display: flex;
+    justify-content: center;
+    gap: 0.125em
+}
+.score span{
+    font-size: 4rem;
+}
+#score-board{
+    width:20%;
+    margin: 4em auto;
+
+}
+.choice img{
+    width:100px;
+}
+.choice{
+    border: 5px solid #CB958E;
+    background-color: #4C2C69;
+    border-radius: 50%;
+    padding: 1.25em;
+    cursor: pointer;
+}
+.choice:hover{
+    border: 5px solid #ABFAA9;
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    gap: 4em;
+    width: 50%;
+    margin: 5em auto;
+}
+#result-message{
+    text-align: center;
+    color: #ABFAA9;
+    font-size: 2rem;
+}
+.player{
+    color:aliceblue
+}
+.win{
+    background-color: green;
+}
+.loss{
+    background-color: red;
+}
+.draw{
+    background-color: gray;
+}
